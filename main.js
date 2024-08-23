@@ -3,7 +3,7 @@ let playBtn = document.getElementById("play-button");
 let userInput = document.getElementById("user-input");
 let resetBtn = document.getElementById("reset-button");
 let result = document.getElementById("result");
-let chances = 10;
+let chances = 5;
 let gameOver = false;
 let chanceText = document.getElementById("chances-text");
 let history = [];
@@ -58,7 +58,7 @@ function reset(){
     userInput.value = "";
     pickRandomNum();
     gameOver = false;
-    chances = 10;
+    chances = 5;
     playBtn.disabled = false;
     chanceText.textContent = `남은 기회: ${chances}번`;
     history = [];
