@@ -60,7 +60,7 @@ function reset(){
     userInput.value = "";
     pickRandomNum();
     gameOver = false;
-    chances = 5;
+    chances = 10;
     playBtn.disabled = false;
     chanceText.textContent = `남은 기회: ${chances}번`;
     history = [];
