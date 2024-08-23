@@ -48,8 +48,6 @@ function play(){
 
     if(chances < 1){
         gameOver = true;
-    }
-    if(gameOver == true){
         result.textContent = "에헤이 실패 ㅠ_ㅠ"
         playBtn.disabled = true;
     }
